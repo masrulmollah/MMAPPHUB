@@ -1,0 +1,7 @@
+{
+  "name": "App Hub Repository",
+  "description": "A centralized app launcher and repository where users and admins can manage and access a collection of web applications with custom icons.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
