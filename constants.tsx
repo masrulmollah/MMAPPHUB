@@ -3,6 +3,7 @@ import React from 'react';
 import { AppCategory, AppLink } from './types';
 
 export const STORAGE_KEY = 'app_hub_repository_data_v2';
+export const SYNC_KEY_STORAGE = 'app_hub_sync_key';
 
 export const CATEGORIES: AppCategory[] = ['All', 'Fun', 'Business', 'Hobby', 'Learning', 'General'];
 
@@ -57,5 +58,11 @@ export const Icons = {
   ),
   Tag: () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"/><path d="M7 7h.01"/></svg>
+  ),
+  Cloud: () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17.5 19c2.5 0 4.5-2 4.5-4.5 0-2.3-1.7-4.2-3.9-4.5-1.1-3.2-4.1-5.5-7.6-5.5-3.9 0-7.2 2.7-8 6.4C1.1 11.4 0 12.8 0 14.5 0 17 2 19 4.5 19h13Z"/></svg>
+  ),
+  Refresh: () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
   )
 };
